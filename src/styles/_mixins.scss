@@ -1,0 +1,22 @@
+@import './variables';
+
+@mixin glass-effect {
+  background: $glass-background;
+  backdrop-filter: blur(5px);
+  border: 1px solid $border-color;
+}
+
+@mixin gradient-button {
+  background: $primary-gradient;
+  border: none;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: all 0.3s ease;
+
+  &:hover {
+    background: $secondary-gradient;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 15px rgba(255, 77, 77, 0.3);
+  }
+} 
