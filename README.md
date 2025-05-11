@@ -1,6 +1,9 @@
 # Assignment for a form for touring bands!
 
 ## How to run this app
+Link for this project https://github.com/7seven7lst/form-creation-exercise
+
+## Description of how to run this code
 1. clone this repo from https://github.com/7seven7lst/form-creation-exercise
 2. make sure you have node version 18 installed (I use nvm for node version and there is a .nvmrc file)
 3. If you are using nvm, you can do `nvm use`
@@ -8,3 +11,6 @@
 5. do `npm start` to run application locally
 6. do `npm run lint:fix` to lint the file
 7. do `npm test` to run test suites
+
+## Anything Else
+a deployed version is on https://bandcraze.netlify.app/
